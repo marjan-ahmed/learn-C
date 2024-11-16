@@ -2,7 +2,7 @@
 #include<conio.h>
 #include <stdbool.h>
 
-// What is "%d, %c, %f"?
+// What are "%d, %c, %f"?
 // They all are format specifier which is used to print the datatype of variable
 
 void main() {
