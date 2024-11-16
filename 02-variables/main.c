@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 // Variable: used to store the information and it can be change in some course of time
 
@@ -15,11 +16,17 @@
 
 // Global Example:
 // int x = 11
-// vodi main() {
+// void main() {
 // int y = 11
 // }
 
+int x = 100;
+int y = 20;
 void main() {
     int x = 10;
-    printf("The value of x = %d", x);
+    printf("The value of x = %d", x); // what will be print?
+    printf("\n"); // used for new line
+    printf("The value of y = %d", y);
+    getch();
 }
+
