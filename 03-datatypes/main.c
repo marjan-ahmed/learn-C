@@ -3,7 +3,13 @@
 #include <stdbool.h>
 
 // What are "%d, %c, %f"?
-// They all are format specifier which is used to print the datatype of variable
+// They all are format specifier which is used to print variable according to data type
+// "%d" = for int
+// "%c" = for character
+// "%f" = for float
+// "%lf" = for double
+// "%vo" = for void
+// and these all are primitive data types
 
 void main() {
     char letter = 'a'; // string (sentence, letters)
